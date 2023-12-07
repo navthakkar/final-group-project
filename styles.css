@@ -16,11 +16,7 @@ header {
 }
 
 .library-backdrop {
-  background: url('images/library-background-draft.svg');
-  width:100%;
-  height:100%;
-  background-repeat: no-repeat;
-  background-size:contain;
+  position:relative;
 }
 
 .library-backdrop picture {
@@ -33,24 +29,52 @@ header {
   height:100%;
 }
 
-/*div.library-backdrop {
-  position:relative;
-  width:100%;
-}*/
 
-/*.book-nav {
-  position:absolute;
-}*/
 
 .book-nav:hover {
   transform:scale(1.5);
 }
 
+#about-book {
+  position:absolute;
+  width:5%;
+  top:41.75%;
+  left:82.5%;
+}
+
+#collab-book {
+  position:absolute;
+  width:5%;
+  top:59.25%;
+  left:76.75%;
+}
+
+#interview-book {
+  position:absolute;
+  width:5%;
+  top:75.5%;
+  left:89%;
+}
+
+#simply-book {
+  position:absolute;
+  width:5%;
+  top:75.5%;
+  left:71.5%;
+}
+
 #hoopla-book {
   position:absolute;
   width:5%;
-  top:50%;
-  left:92%;
+  top:23%;
+  left:72%;
+}
+
+#libby-book {
+  position:absolute;
+  width:5%;
+  top:59%;
+  left:91%;
 }
 
 h3#welcome-message {
