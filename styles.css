@@ -6,7 +6,9 @@ header {
   font-family: 'Patua One', serif;
 }
 
-
+#homepage-head {
+  background: url('images/homepage-header-graphic.svg');
+}
 
 .homepage {
   display:flex;
