@@ -1,13 +1,14 @@
-/*Code for homepage text*/
 
-
-/*Code for homepage background*/
+/*Code for homepage background and text*/
 header {
   font-family: 'Patua One', serif;
+/*  background-repeat: no-repeat;*/
 }
 
 #homepage-head {
-  background: url('images/homepage-header-graphic.svg');
+  background: url('images/homepage-header-graphic.png');
+/*  background-repeat: no-repeat;*/
+  width:100%;
 }
 
 .homepage {
@@ -31,11 +32,11 @@ header {
   height:100%;
 }
 
-
-
 .book-nav:hover {
-  transform:scale(1.5);
+  transform:scale(2.0);
 }
+
+@media (min-width:799px){
 
 #about-book {
   position:absolute;
@@ -77,6 +78,52 @@ header {
   width:5%;
   top:59%;
   left:91%;
+}
+}
+
+@media (max-width:800px){
+
+#about-book {
+  position:absolute;
+  width:15%;
+  top:37.25%;
+  left:46.5%;
+}
+
+#collab-book {
+  position:absolute;
+  width:15%;
+  top:54%;
+  left:30.75%;
+}
+
+#interview-book {
+  position:absolute;
+  width:15%;
+  top:69.75%;
+  left:64%;
+}
+
+#simply-book {
+  position:absolute;
+  width:15%;
+  top:69.75%;
+  left:16.5%;
+}
+
+#hoopla-book {
+  position:absolute;
+  width:15%;
+  top:19.75%;
+  left:19%;
+}
+
+#libby-book {
+  position:absolute;
+  width:15%;
+  top:54%;
+  left:69%;
+}
 }
 
 h3#welcome-message {
