@@ -65,19 +65,19 @@ nav a:hover{
   text-decoration: underline;
 }
 
-#usability-dropdown {
-  display:none;
+.usability-dropdown {
+  display: none;
+  opacity:0;
+  visibility: hidden;
 }
 
-#usability-dropbtn:hover #usability-dropdown {
-  display: block;
+#usability-dropbtn:hover {
+  background-color: red;
 }
 
-#about-dropdown {
-  display:none;
-}
-#about-dropbtn:hover #about-dropdown {
-  display:block;
+#usability-dropbtn:hover, .usability-dropdown{
+  display: visible;
+  background-color: red;
 }
 
 #homepage-head {
@@ -271,6 +271,10 @@ h3#welcome-message {
 
 * {
   box-sizing: border-box;
+}
+
+#usability-dropbtn:hover #usability-dropdown{
+  display: block;
 }
 
 /*Footer Formating*/
