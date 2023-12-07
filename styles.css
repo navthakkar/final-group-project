@@ -16,7 +16,7 @@ header {
 }
 
 .library-backdrop {
-  background: url('library-background-draft.svg');
+  background: url('images/library-background-draft.svg');
   width:100%;
   height:100%;
   background-repeat: no-repeat;
@@ -33,14 +33,28 @@ header {
   height:100%;
 }
 
+/*div.library-backdrop {
+  position:relative;
+  width:100%;
+}*/
+
+/*.book-nav {
+  position:absolute;
+}*/
+
 .book-nav:hover {
   transform:scale(1.5);
 }
 
-#welcome-message {
-  font-size: 3em;
+h3#welcome-message {
+  font-size: 1em;
   margin: 0;
-  padding:0;
+  padding-left:0;
+  padding-right:0;
+  position:absolute;
+  top:20%;
+  left:5%;
+/*  background-color:white;*/
 }
 * {
   box-sizing: border-box;
