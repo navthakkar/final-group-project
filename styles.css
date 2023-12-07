@@ -46,6 +46,13 @@ header {
   transform:scale(1.5);
 }
 
+#hoopla-book {
+  position:absolute;
+  width:5%;
+  top:50%;
+  left:92%;
+}
+
 h3#welcome-message {
   font-size: 1em;
   margin: 0;
