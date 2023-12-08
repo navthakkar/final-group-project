@@ -37,10 +37,12 @@ h2 {
 nav.topnav {
   grid-row: 3 / 4;
   margin-top: 20%;
+  background-color:white;
+  margin-bottom:5%;
 }
 
 .topnav ul {
-  overflow:hidden;
+/*  overflow:hidden;*/
   font-family: 'Istok Web', sans-serif;
   list-style-type: none;
   color:black;
@@ -65,80 +67,23 @@ nav a:hover{
   text-decoration: underline;
 }
 
-/*.usability-dropdown {
-  display: none;
-  opacity:0;
-  visibility: hidden;
-}
-
-#usability-dropbtn:hover {
-  background-color: red;
-}
-
-#usability-dropbtn:hover, .usability-dropdown {
-  display: block;
-  background-color: red;
-}*/
-
 .dropdown {
-  max-width: 5em;
   position: relative;
-/*  width:100%;*/
+  display: inline-block;
 }
 
-.usability-dropbtn {
-  background: white;
-  font-size:1em;
-/*  width:20%;*/
-  border: none;
-  color:black;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7em 0.5em;*/
-  border-radius: 0.5em;
-  cursor: pointer;
-}
-
-.usability-dropdown {
-  color:black;
-  list-style:none;
-  position: absolute;
-  top:500px;
-/*  left:10%;*/
-  width:100%;
-}
-
-.usability-dropdown li {
-  background:pink;
-  border-radius:0.5em;
-}
-
-.usability-dropdown li:hover {
-  background:orange;
-}
-
-.usability-dropdown {
-  display:block;
-}
-
-/*.usability-dropdown {
+.dropdown-content {
+  overflow: visible;
   display:none;
-}*/
+  position: absolute;
+  z-index: 1;
+  left:-47%;
+  font-size:1em;
+}
 
-/*.usability-dropdown {
-  visibility:visible;
-  background:pink;
-}*/
-
-/*button + .usability-dropdown {
-  visibility: hidden;
-}*/
-
-
-/*.usability-dropbtn:hover + .usability-dropdown {
-  visibility:visible;
-}*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 #homepage-head {
   background: url('images/homepage-header-graphic.png');
@@ -333,15 +278,6 @@ h3#welcome-message {
   box-sizing: border-box;
 }
 
-li.dropdown:hover h3 {
-  background-color:green;
-}
-
-.dropdown:hover + h3 {
-    background-color:green;
-}
-button.usability-dropbtn:hover + #welcome-message {
-  background-color:green;
 }
 /*Footer Formating*/
 
