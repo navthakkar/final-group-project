@@ -213,8 +213,6 @@ nav a:hover{
 .topnav li {
     font-size:1em;
     float: left;
-
-/*    display: inline-block;*/
     padding: 10px 20px;
     text-align:center;
 }
