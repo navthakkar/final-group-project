@@ -65,7 +65,7 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.usability-dropdown {
+/*.usability-dropdown {
   display: none;
   opacity:0;
   visibility: hidden;
@@ -78,7 +78,67 @@ nav a:hover{
 #usability-dropbtn:hover, .usability-dropdown {
   display: block;
   background-color: red;
+}*/
+
+.dropdown {
+  max-width: 5em;
+  position: relative;
+/*  width:100%;*/
 }
+
+.usability-dropbtn {
+  background: white;
+  font-size:1em;
+/*  width:20%;*/
+  border: none;
+  color:black;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em 0.5em;*/
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.usability-dropdown {
+  color:black;
+  list-style:none;
+  position: absolute;
+  top:500px;
+/*  left:10%;*/
+  width:100%;
+}
+
+.usability-dropdown li {
+  background:pink;
+  border-radius:0.5em;
+}
+
+.usability-dropdown li:hover {
+  background:orange;
+}
+
+.usability-dropdown {
+  display:block;
+}
+
+/*.usability-dropdown {
+  display:none;
+}*/
+
+/*.usability-dropdown {
+  visibility:visible;
+  background:pink;
+}*/
+
+/*button + .usability-dropdown {
+  visibility: hidden;
+}*/
+
+
+/*.usability-dropbtn:hover + .usability-dropdown {
+  visibility:visible;
+}*/
 
 #homepage-head {
   background: url('images/homepage-header-graphic.png');
@@ -273,10 +333,16 @@ h3#welcome-message {
   box-sizing: border-box;
 }
 
-#usability-dropbtn:hover #usability-dropdown{
-  display: block;
+li.dropdown:hover h3 {
+  background-color:green;
 }
 
+.dropdown:hover + h3 {
+    background-color:green;
+}
+button.usability-dropbtn:hover + #welcome-message {
+  background-color:green;
+}
 /*Footer Formating*/
 
 .attribution {
