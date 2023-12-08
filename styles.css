@@ -75,8 +75,8 @@ nav a:hover{
   background-color: red;
 }
 
-#usability-dropbtn:hover, .usability-dropdown{
-  display: visible;
+#usability-dropbtn:hover, .usability-dropdown {
+  display: block;
   background-color: red;
 }
 
