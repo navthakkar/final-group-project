@@ -1,0 +1,21 @@
+#about-head {
+	background-color: #B20019;
+	color:white;
+	height:350px;
+  	width:100%;
+}
+
+#about-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:2%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+.subpage-content {
+	margin-bottom: 100px;
+}
