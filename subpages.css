@@ -17,6 +17,25 @@
   text-align:left;
 }
 
+#hoopla-head {
+  background-color: #414EC4;
+  color:white;
+/*  height:350px;*/
+    width:100%;
+    max-height: 500px;
+}
+
+#hoopla-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
 .subpage-content {
 	margin-bottom: 100px;
 }
