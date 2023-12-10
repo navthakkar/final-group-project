@@ -1,4 +1,80 @@
-#about-head h1, #hoopla-head h1, #reading-head h1, #collaborators-head h1, #interviews-head h1, #libby-head h1, #references-head h1, #simplye-head h1 {
+#about-head h1 {
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#references-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#reading-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#collaborators-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#interviews-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#hoopla-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#libby-head h1 {
+  font-size: 6em;
+  color:white;
+  padding:0;
+  margin-right:2%;
+  margin-top:5%;
+  margin-bottom:0;
+  margin-left:5%;
+  text-align:left;
+}
+
+#simplye-head h1 {
   font-size: 6em;
   color:white;
   padding:0;
