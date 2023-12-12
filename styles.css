@@ -334,12 +334,12 @@ h3#welcome-message {
   height:350px;
   width:100%;
   background-position: center center;
+  }
 
   nav.topnav {
   margin-top: 5%;
   margin-bottom:5%;
-}
-}
+  }
 }
 
 * {
