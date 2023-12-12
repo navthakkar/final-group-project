@@ -331,6 +331,9 @@ h3#welcome-message {
 @media (min-width: 1800px) {
   #homepage-head {
   background: url('images/homepage-header-graphic-wide.png');
+  height:350px;
+  width:100%;
+  background-position: center center;
 }
 }
 
