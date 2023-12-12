@@ -189,7 +189,7 @@
 .column {
   float: left;
   width: 47%;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 .row:after {
@@ -203,7 +203,6 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 24px 16px;
  }
 
  .column1 {
@@ -225,3 +224,8 @@
   font-weight: 550;
   color: #453f3e;
  }
+
+ @media screen and (max-width: 800px) {
+  .column, .column1 {
+    width: 100%;
+  }
