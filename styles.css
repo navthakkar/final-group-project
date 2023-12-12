@@ -328,6 +328,11 @@ h3#welcome-message {
   position:absolute;
 }
 
+@media (min-width: 1800px) {
+  #homepage-head {
+  background: url('images/homepage-header-graphic-wide.png');
+}
+}
 
 * {
   box-sizing: border-box;
