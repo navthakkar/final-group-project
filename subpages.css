@@ -229,4 +229,54 @@
   .column, .column1 {
     width: 100%;
   }
+
+  #about-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #collaborators-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #hoopla-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #interviews-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #libby-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #reading-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #references-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+  #simplye-head h1 {
+  font-size: 5em;
+  margin-left:5%;
+  margin-top:2%;
+  }
+
+
 }
