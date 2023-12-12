@@ -217,6 +217,14 @@ nav a:hover{
 
 @media (max-width:800px){
 
+section.homepage-content {
+  margin-top: 60px;
+}
+
+section.subpage-content {
+  margin-top: 60px;
+}
+
 ul {
   padding-left:0;
 }
