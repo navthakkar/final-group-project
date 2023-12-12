@@ -18,8 +18,8 @@ header {
 header {
   font-family: 'Patua One', serif;
   display:grid;
-  grid-direct:column;
-  grid-template-columns: 1 fr;
+  grid-direction:column;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 2fr;
   max-height: 500px;
 }
@@ -325,7 +325,7 @@ h3#welcome-message {
   box-sizing: border-box;
 }
 
-}
+
 /*Footer Formating*/
 
 .attribution {
